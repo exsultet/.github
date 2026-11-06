@@ -1,0 +1,23 @@
+name: Bug
+description: Algo não funciona como deveria
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: O que aconteceu
+      description: Descreva o problema e o que você esperava.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Como reproduzir
+      placeholder: "1. Abrir a lição...\n2. Tocar em...\n3. Ver o erro"
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Aparelho e versão
+      placeholder: "Android 15, Kerigma 0.3.1"

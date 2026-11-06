@@ -1,0 +1,24 @@
+name: Revisão doutrinal
+description: Um conteúdo pode estar impreciso ou contrário ao Magistério
+labels: [doutrina]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Onde está o conteúdo
+      placeholder: "Kerigma › Trilha do Credo › Lição 4, questão 2"
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: O que está impreciso
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Fonte de referência
+      placeholder: "CIC 1817; Dei Verbum 10"
+    validations:
+      required: true
